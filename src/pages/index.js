@@ -1,10 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section, Image, Hr, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Section, Hr, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
-import { MdFileDownload } from "react-icons/md";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -50,17 +50,6 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="50px 0 100px 0" quarkly-title="HeroBlock">
-			<Image
-				width="100%"
-				src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"
-				align-self="auto"
-				order="0"
-				display="block"
-				flex="0 1 auto"
-				object-fit="cover"
-				height="600px"
-				margin="0px 0px 80px 0px"
-			/>
 			<Text
 				sm-margin="0px 0px 0px 0px"
 				md-margin="0px 0px 0px 0px"
@@ -72,7 +61,7 @@ export default (() => {
 				font="--headline1"
 				md-text-align="center"
 			>
-				欢迎从本页下载
+				欢迎下载
 				<br />
 				Hypetoday的商业企划案
 			</Text>
@@ -101,6 +90,15 @@ export default (() => {
 					sm-padding="0px 0px 16px 0px"
 				>
 					<Hr width="100%" color="--light" />
+					<Icon
+						category="fa"
+						icon={FaCloudDownloadAlt}
+						size="64px"
+						color="#ffffff"
+						margin="0px 0px 0px 50px"
+						width="40px"
+						height="40px"
+					/>
 				</Box>
 				<Box
 					empty-border-width="1px"
@@ -129,18 +127,6 @@ export default (() => {
 						<br />
 						2021年五月
 					</Text>
-					<Icon
-						category="md"
-						icon={MdFileDownload}
-						size="64px"
-						color="#ffffff"
-						width="30px"
-						align-self="auto"
-						display="flex"
-						order="-1"
-						justify-self="center"
-						height="30px"
-					/>
 				</Box>
 				<Box
 					empty-border-color="LightGray"
@@ -161,7 +147,7 @@ export default (() => {
 						md-font="500 20px/1.3 --fontFamily-googleInter"
 						sm-width="100%"
 					>
-						为运动领队提供技术支持与服务
+						Hypetoday为运动领队提供技术支持与服务
 						<br />
 						<br />
 						一、完美的客户体验
@@ -199,6 +185,15 @@ export default (() => {
 					empty-border-width="1px"
 				>
 					<Hr width="100%" color="--light" />
+					<Icon
+						category="fa"
+						icon={FaCloudDownloadAlt}
+						size="64px"
+						color="#ffffff"
+						margin="0px 0px 0px 50px"
+						width="40px"
+						height="40px"
+					/>
 				</Box>
 				<Box
 					sm-padding="0px 0px 16px 0px"
@@ -211,25 +206,15 @@ export default (() => {
 					width="20%"
 					sm-width="100%"
 					sm-justify-content="flex-start"
-					align-self="flex-start"
+					display="inline-block"
+					flex="0 1 auto"
+					text-align="center"
 				>
-					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px">
+					<Text font="normal 600 18px/1.5 --fontFamily-googleInter" color="--light" margin="0px 0px 0px 0px" position="static">
 						English Version
 						<br />
 						February, 2022
 					</Text>
-					<Icon
-						category="md"
-						icon={MdFileDownload}
-						size="64px"
-						color="#ffffff"
-						width="30px"
-						align-self="auto"
-						display="flex"
-						order="-1"
-						height="30px"
-						justify-self="center"
-					/>
 				</Box>
 				<Box
 					empty-border-width="1px"
@@ -313,6 +298,9 @@ export default (() => {
 				empty-border-color="LightGray"
 				display="flex"
 				md-align-items="center"
+				align-self="flex-start"
+				text-align="left"
+				flex="1 1 0%"
 			>
 				<Text
 					margin="0px 0px 0px 0px"

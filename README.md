@@ -3,7 +3,7 @@
   <img src="http://uploads.quarkly.io/readme/cra/readme-quarkly-and-cra.png" width="480px" alt="Create-React-App project from Quarkly">
 </p>
 
-<h1 align="center">Aoede</h1>
+<h1 align="center">Hypetoday</h1>
 
 <h4 align="center">This Create-React-App project was created in <a href="https://quarkly.io/" target="_blank">Quarkly.io</a> – design tool for creating websites and web apps</h4>
 
@@ -17,6 +17,11 @@
          alt="Create React App version" />
   </a>
   
+  <a href="https://github.com/xdai1091/hypetoday_bp/pulls">
+    <img src="https://badgen.net/github/prs/xdai1091/hypetoday_bp" alt="Pull Request Amount">
+  </a>
+  <img src="https://badgen.net/github/last-commit/xdai1091/hypetoday_bp" alt="Last commit date" />
+            
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue"
          alt="License">
